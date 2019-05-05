@@ -21,7 +21,7 @@ namespace CleanArchitecture.Web
             dbContext.ToDoItems.Add(new ToDoItem()
             {
                 Title = "Test Item 2",
-                Description = "Test Description Two"
+                Description = "Test Description Two Test"
             });
             dbContext.SaveChanges();
         }
